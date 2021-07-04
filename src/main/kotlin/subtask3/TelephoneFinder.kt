@@ -30,7 +30,4 @@ class TelephoneFinder {
     }
 }
 
-fun main(){
-    val tf = TelephoneFinder()
-    tf.findAllNumbersFromGivenNumber("8675309")?.forEach { println(it) }
-}
+
